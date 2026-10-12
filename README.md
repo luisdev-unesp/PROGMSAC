@@ -116,4 +116,4 @@ t_coffee -infile alinhamento.fasta -output html
 - **Tempo:** o alinhamento par a par é O(L²) por par de sequências, e a matriz de distância tem n(n−1)/2 pares.
 - **Ordem na saída:** as sequências no FASTA/Clustal aparecem na ordem das folhas da árvore guia, e não na ordem de entrada; os rótulos `sequencia_N` / `seq_N` seguem essa ordem de saída.
 - A primeira linha da entrada define o tipo (`p` ou outro caractere para DNA/RNA); não há validação dos caracteres das sequências.
-- **Mudança em sequẽncias de RNA:** no alinhamento de sequẽncias de RNA é preciso ajustar os valores de match, mismatch, gap e gapextends.
+- **Mudança em sequẽncias de RNA:** no alinhamento de sequẽncias de proteínas é preciso ajustar os valores de match, mismatch, gap e gapextends.
