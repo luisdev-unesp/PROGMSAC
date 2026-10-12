@@ -1,0 +1,12 @@
+# executável compilado
+/progmsa
+*.o
+
+# entradas de teste geradas pelos scripts
+teste*.txt
+entrada.txt
+
+# saídas do programa
+alinhamento.fasta
+alinhamento.aln
+alinhamento*.html
