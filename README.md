@@ -45,6 +45,7 @@ Penalidades de gap: abertura `-10`, extensão `-2`. Todos os valores ficam em `s
 
 ```bash
 gcc -O3 -march=native -fopenmp src/main.c src/PROGMSAC.c -o progmsa -lm
+./progmsa < file
 ```
 
 ## Formato de entrada
